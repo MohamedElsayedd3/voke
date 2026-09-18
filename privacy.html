@@ -1,91 +1,130 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>سياسة الخصوصية وشروط الاستخدام - Voke</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: system-ui, -apple-system, sans-serif; background: #0a0a0a; color: #e0e0e0; line-height: 1.8; }
-    .container { max-width: 640px; margin: 0 auto; padding: 24px 20px; }
-    h1 { color: #fff; font-size: 24px; margin-bottom: 20px; text-align: center; border-bottom: 1px solid #333; padding-bottom: 10px; }
-    h2 { color: #c0f748; font-size: 18px; margin-top: 30px; margin-bottom: 10px; }
-    p { margin-bottom: 12px; font-size: 14px; }
-    ul, ol { margin-bottom: 12px; font-size: 14px; padding-inline-start: 24px; }
-    li { margin-bottom: 6px; }
-    a { color: #c0f748; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .last-updated { text-align: center; color: #888; font-size: 12px; margin-bottom: 24px; }
-    .divider { height: 1px; background: #333; margin: 40px 0; }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Voke — سياسة الخصوصية | Privacy Policy</title>
+<style>
+  :root { --green:#7ab83a; --green2:#c0f748; --bg:#0f1210; --card:#171b18; --text:#e9efe6; --muted:#9aa79a; --border:#28302a; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Tahoma,Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.85; }
+  .wrap { max-width:820px; margin:0 auto; padding:28px 18px 64px; }
+  header { text-align:center; padding:10px 0 22px; border-bottom:1px solid var(--border); margin-bottom:24px; }
+  .logo { display:inline-flex; align-items:center; justify-content:center; width:56px; height:56px; border-radius:14px; background:linear-gradient(135deg,var(--green2),var(--green)); color:#0f1210; font-weight:900; font-size:24px; margin-bottom:10px; }
+  h1 { font-size:22px; margin:6px 0 4px; }
+  .updated { color:var(--muted); font-size:13px; }
+  h2 { font-size:17px; margin:26px 0 8px; color:var(--green2); }
+  p, li { font-size:14.5px; color:var(--text); }
+  ul { padding-inline-start:20px; margin:8px 0; }
+  li { margin:6px 0; }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:14px; padding:16px 18px; margin:14px 0; }
+  .muted { color:var(--muted); }
+  a { color:var(--green2); }
+  .lang { text-align:center; margin:6px 0 0; }
+  .lang a { text-decoration:none; border:1px solid var(--border); padding:6px 14px; border-radius:999px; font-size:13px; margin:0 4px; display:inline-block; }
+  section.en { direction:ltr; text-align:left; }
+  footer { text-align:center; color:var(--muted); font-size:12.5px; margin-top:36px; border-top:1px solid var(--border); padding-top:16px; }
+</style>
 </head>
 <body>
-  <div class="container">
-    <h1>سياسة الخصوصية لتطبيق Voke</h1>
-    <p class="last-updated">آخر تحديث: 19 يونيو 2026</p>
+<div class="wrap">
+  <header>
+    <div class="logo">V</div>
+    <h1>Voke — سياسة الخصوصية</h1>
+    <div class="updated">آخر تحديث: <span id="d"></span></div>
+    <p class="lang"><a href="#ar">العربية</a><a href="#en">English</a></p>
+  </header>
 
-    <p>نحن في Voke نحترم خصوصيتك ونلتزم بحماية بياناتك الشخصية. توضح هذه السياسة كيف نجمع بياناتك ونستخدمها:</p>
+  <!-- ===== العربية ===== -->
+  <section id="ar">
+    <p>نشكرك على استخدام تطبيق <strong>Voke</strong> (اسم الحزمة: <span dir="ltr">com.voke.app</span>). توضّح هذه السياسة كيفية تعامل التطبيق مع بياناتك. باستخدامك التطبيق فأنت توافق على ما ورد أدناه.</p>
 
-    <h2>1. المعلومات التي نجمعها</h2>
+    <div class="card">
+      <h2>1) البيانات التي نجمعها</h2>
+      <p>لا يجمع التطبيق أي بيانات شخصية، ولا يتطلب تسجيل دخول أو حساب. لا نرسل أي بيانات إلى خوادمنا، ولا نمتلك خوادم تجمع معلوماتك.</p>
+      <ul>
+        <li>التحميلات وسجل التصفح والإشارات المرجعية تُحفظ <strong>محلياً على جهازك فقط</strong>.</li>
+        <li>لا نجمع الاسم أو البريد أو جهات الاتصال أو الموقع أو أي معرّفات شخصية.</li>
+        <li>لا نجمع سجلات (Logs) أو تقارير أعطال تُرسل خارج جهازك.</li>
+      </ul>
+    </div>
+
+    <h2>2) الأذونات ولماذا نحتاجها</h2>
     <ul>
-        <li><strong>المعلومات التي تقدمها لنا:</strong> مثل اسمك، البريد الإلكتروني، صورة الملف الشخصي، والبيانات التي تدخلها عند التسجيل.</li>
-        <li><strong>معلومات الاستخدام:</strong> نجمع بيانات حول كيفية تفاعلك مع التطبيق لتحسين تجربة المستخدم.</li>
+      <li><strong>الإنترنت:</strong> للتصفح وتحميل الملفات.</li>
+      <li><strong>التخزين/الملفات:</strong> لحفظ التحميلات في مجلد تختاره أنت.</li>
+      <li><strong>الإشعارات:</strong> لإظهار تقدّم التحميل (اختياري).</li>
+      <li><strong>الكاميرا/الميكروفون:</strong> فقط إذا طلبها موقع تزوره داخل المتصفح المدمج، وبعد موافقتك.</li>
     </ul>
 
-    <h2>2. كيف نستخدم معلوماتك</h2>
+    <h2>3) الإعلانات</h2>
+    <p>يعرض التطبيق إعلانات عبر <strong>Google AdMob</strong>. قد يجمع AdMob معرّفاً إعلانياً ومعلومات تقنية وفقاً لسياسة خصوصية Google، لتحسين الإعلانات. يمكنك مراجعة سياسة Google من <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">هذا الرابط</a>. يمكنك إعادة ضبط أو تعطيل معرّف الإعلان من إعدادات جهازك.</p>
+
+    <h2>4) ملكية المحتوى</h2>
+    <p>Voke أداة لإدارة وتنظيم التحميلات على جهازك فقط. لا يستضيف التطبيق ولا يوفّر ولا يبثّ ولا يملك أي محتوى أو ملفات أو روابط. أنت وحدك المسؤول عن التأكد من أن أي شيء تحمّله قانوني ولا ينتهك حقوق النشر أو شروط أي موقع.</p>
+
+    <h2>5) حذف بياناتك</h2>
+    <p>يمكنك حذف جميع بياناتك في أي وقت من داخل التطبيق: مسح سجل التصفح، حذف الإشارات المرجعية، وحذف التحميلات. حذف التطبيق يزيل البيانات المخزّنة محلياً.</p>
+    <h2>6) خصوصية الأطفال</h2>
+    <p>التطبيق غير موجّه للأطفال دون 13 عاماً، ولا نجمع بيانات منهم عن قصد.</p>
+
+    <h2>7) تغييرات السياسة</h2>
+    <p>قد نحدّث هذه السياسة من وقت لآخر، وسيظهر تاريخ آخر تحديث في أعلى الصفحة. استمرارك في استخدام التطبيق يعني موافقتك على النسخة المحدّثة.</p>
+
+    <h2>8) التواصل</h2>
+    <p>لأي استفسار بخصوص الخصوصية راسلنا على: <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a></p>
+  </section>
+
+  <!-- ===== English ===== -->
+  <section id="en" class="en">
+    <hr style="border:none;border-top:1px solid var(--border);margin:34px 0" />
+    <h1 style="font-size:20px">Voke — Privacy Policy</h1>
+    <p>Thank you for using <strong>Voke</strong> (package name: <span dir="ltr">com.voke.app</span>). This policy explains how the app handles your data. By using the app you agree to the following.</p>
+
+    <div class="card">
+      <h2>1) Data We Collect</h2>
+      <p>Voke does not collect any personal data and requires no login or account. We do not send data to our servers, and we do not operate servers that store your information.</p>
+      <ul>
+        <li>Downloads, browsing history and bookmarks are stored <strong>locally on your device only</strong>.</li>
+        <li>We collect no name, email, contacts, location or personal identifiers.</li>
+        <li>We collect no logs or crash reports sent off your device.</li>
+      </ul>
+    </div>
+
+    <h2>2) Permissions &amp; Why</h2>
     <ul>
-        <li>لإنشاء وإدارة حسابك.</li>
-        <li>لتوفير خدمات التطبيق وتسهيل التواصل بين المستخدمين.</li>
-        <li>لتحسين التطبيق وإصلاح الأخطاء التقنية.</li>
-        <li>للتواصل معك بشأن التحديثات أو الدعم الفني.</li>
+      <li><strong>Internet:</strong> to browse and download files.</li>
+      <li><strong>Storage/Files:</strong> to save downloads to a folder you choose.</li>
+      <li><strong>Notifications:</strong> to show download progress (optional).</li>
+      <li><strong>Camera/Microphone:</strong> only when a site you visit in the built-in browser requests it, and after your consent.</li>
     </ul>
 
-    <h2>3. مشاركة البيانات والإعلانات</h2>
-    <p>يحتوي التطبيق على إعلانات من Google AdMob. قد تجمع Google بيانات مثل عنوان IP ومعرف الجهاز لتقديم إعلانات مخصصة. <a href="https://policies.google.com/privacy" target="_blank">سياسة خصوصية Google</a></p>
-    <p>نحن <strong>لا نبيع</strong> بياناتك الشخصية لأي جهة خارجية. قد نشارك بياناتك فقط في الحالات التالية:</p>
-    <ul>
-        <li>إذا تطلب القانون ذلك للتعاون مع السلطات القانونية.</li>
-        <li>لحماية حقوقنا وممتلكاتنا أو سلامة مستخدمينا.</li>
-    </ul>
+    <h2>3) Advertising</h2>
+    <p>The app shows ads through <strong>Google AdMob</strong>. AdMob may collect an advertising identifier and technical data under Google's privacy policy to serve ads. See Google's policy <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">here</a>. You can reset or opt out of the advertising identifier in your device settings.</p>
 
-    <h2>4. أمان البيانات</h2>
-    <p>نحن نتخذ إجراءات أمنية لحماية بياناتك، وبياناتك مخزنة على خوادم آمنة (Supabase).</p>
+    <h2>4) Content Ownership</h2>
+    <p>Voke only manages and organizes downloads on your own device. The app does not host, provide, stream or own any content, files or links. You alone are responsible for ensuring anything you download is legal and does not infringe copyrights or any website's terms.</p>
 
-    <h2>5. حقوقك وحذف الحساب</h2>
-    <p>يحق لك طلب حذف حسابك نهائياً من قاعدة بياناتنا عبر <strong>الإعدادات &gt; الخصوصية &gt; حذف الحساب</strong>. عند حذف حسابك، تُحذف جميع بياناتك نهائياً.</p>
+    <h2>5) Deleting Your Data</h2>
+    <p>You can delete all your data at any time from inside the app: clear browsing history, remove bookmarks, and delete downloads. Uninstalling the app removes locally stored data.</p>
 
-    <h2>6. تواصل معنا</h2>
-    <p>إذا كان لديك أي أسئلة حول سياسة الخصوصية، يرجى مراسلتنا على: <strong><a href="mailto:moamedelsayed04@gmail.com">moamedelsayed04@gmail.com</a></strong></p>
+    <h2>6) Children's Privacy</h2>
+    <p>The app is not directed to children under 13, and we do not knowingly collect data from them.</p>
 
-    <div class="divider"></div>
+    <h2>7) Policy Changes</h2>
+    <p>We may update this policy from time to time; the "last updated" date will change accordingly. Continued use of the app means you accept the updated version.</p>
 
-    <h1>شروط الاستخدام</h1>
-    <p>مرحباً بك في تطبيق Voke. باستخدامك لتطبيقنا، فإنك توافق على الالتزام بالشروط والأحكام التالية:</p>
+    <h2>8) Contact</h2>
+    <p>For privacy questions, contact us at: <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a></p>
+  </section>
 
-    <h2>1. شروط الحساب</h2>
-    <ul>
-        <li>يجب أن تكون معلومات حسابك دقيقة وصحيحة.</li>
-        <li>أنت مسؤول عن الحفاظ على سرية بيانات تسجيل الدخول الخاصة بك.</li>
-        <li>يحق لنا تعليق أو إنهاء حسابك إذا انتهكت هذه الشروط.</li>
-    </ul>
-
-    <h2>2. المحتوى الخاص بك</h2>
-    <ul>
-        <li>أنت تتحمل المسؤولية الكاملة عن أي محتوى تقوم بنشره عبر التطبيق.</li>
-        <li>بمشاركتك للمحتوى، فإنك تمنحنا ترخيصاً لعرضه داخل التطبيق.</li>
-        <li>نحتفظ بالحق في إزالة أي محتوى نراه مسيئاً دون سابق إنذار.</li>
-    </ul>
-
-    <h2>3. السلوك المحظور</h2>
-    <p>يُمنع منعاً باتاً استخدام التطبيق في:</p>
-    <ul>
-        <li>نشر محتوى يحض على الكراهية، العنف، أو التمييز.</li>
-        <li>مضايقة المستخدمين الآخرين أو إرسال رسائل مزعجة (Spam).</li>
-        <li>القيام بأي نشاط غير قانوني.</li>
-        <li>نشر أي مواد تتعلق بالاستغلال الجنسي للأطفال (يُرجى مراجعة <a href="safety.html">معايير سلامة الأطفال</a>).</li>
-    </ul>
-<h2>4. إخلاء المسؤولية</h2>
-    <p>يتم تقديم التطبيق "كما هو" دون أي ضمانات. نحن لا نتحمل المسؤولية عن أي أضرار ناتجة عن استخدام التطبيق أو التفاعل مع المستخدمين الآخرين.</p>
-  </div>
+  <footer>
+    © <span id="y"></span> Voke. All rights reserved.
+  </footer>
+</div>
+<script>
+  document.getElementById('d').textContent = new Date().toLocaleDateString('ar-EG');
+  document.getElementById('y').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
